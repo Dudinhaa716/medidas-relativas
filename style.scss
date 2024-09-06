@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira-sessao{
+    background-color: red;
+    //largura:
+    width: 500px;
+    height: 500px;
+//aninhamento/nesting
+    div{
+background-color: blue;
+width: 50vw;
+height: 50vh;
+    // vw e vh são relativos a tela
+}
+    //medidas relativas
+    //vw (viewport width)
+    //largura da janela de visualização
+    //1vw é igual a 1% da largura da sua pagina
+
+//vh (viewport width)
+// altura da janela de visualização
+
+}
+
+.segunda-sessao{
+    background-color: pink;
+    height: 60vh;
+    width: 60vw;
+// aninhamento no sass
+    div{
+background-color: blueviolet;
+// % porcentagem
+//relativa ao pai
+width: 50%;
+height: 50%;
+    }
+}
